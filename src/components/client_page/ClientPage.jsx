@@ -1,4 +1,7 @@
+import { Outlet } from "react-router-dom";
+
 const ClientPage = () => {
-    return <h2>Client Page</h2>;
+    return <Outlet />;
 };
+
 export default ClientPage;
