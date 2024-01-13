@@ -1,9 +1,7 @@
+import { RouteComponents } from "./router/index";
+
 function App() {
-    return (
-        <>
-            <h2>Vite + React</h2>
-        </>
-    );
+    return <RouteComponents />;
 }
 
 export default App;
